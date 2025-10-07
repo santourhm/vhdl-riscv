@@ -1,0 +1,192 @@
+v 4
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/regs/riscv_types.vhd" "a20eb6a6658ea85c56fb2f08601fe49e7ee21841" "20250524203218.647":
+  package riscv_types at 1( 0) + 0 on 1227 body;
+  package body riscv_types at 171( 6416) + 0 on 1228;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "IPs/uart_nano20k.bad/uart_recv.vhd" "3b2652848e0f6a0d55dfcb51d6e6d7396135b1bd" "20250524203218.018":
+  architecture behavioral of uart_recv at 35( 1244) + 0 on 1160;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/ram/mem_ram_dp_pkg.vhd" "adf0c28c662dc36899b138f8789692ff326f509e" "20250524203217.802":
+  package mem_ram_dp_pkg at 1( 0) + 0 on 1141;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/regs/registers_pass_pkg.vhd" "5d2e35ab16e4c1891bc05ef7fd2684ddb04962b1" "20250524203217.767":
+  package registers_pass_pkg at 1( 0) + 0 on 1139;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/load/mem_load_pkg.vhd" "c9dc791130adafef34b3d8526531c2a05153116a" "20250524203217.732":
+  package mem_load_pkg at 1( 0) + 0 on 1137;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/store/mem_store_pkg.vhd" "bd64fc4f91f1e6a6fda6c338368726e42e103134" "20250524203217.695":
+  package mem_store_pkg at 1( 0) + 0 on 1135;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/decode/decoder_5stg_pkg.vhd" "bc637aaed127c6cbdb53023c9bfe35515127da54" "20250524203217.660":
+  package decoder_5stg_pkg at 1( 0) + 0 on 1133;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/imm/immediate_pkg.vhd" "23f4bebe3a0a1d8f75c0e5a92567ced40398a44a" "20250524203217.624":
+  package immediate_pkg at 1( 0) + 0 on 1131;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/alu/alu_pkg.vhd" "634c1c849b04d1802780a30dbfd9d956f88fa84f" "20250524203217.589":
+  package alu_pkg at 1( 0) + 0 on 1129;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/fetch/fetch_pkg.vhd" "13c24d3a7e40b0f490a3918f403d276a187e8ee0" "20250524203217.554":
+  package fetch_pkg at 1( 0) + 0 on 1127;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/ram/mem_ram_dp.vhd" "cde24778f12646aba8d6b471db0683d672da1fb3" "20250524203218.758":
+  entity mem_ram_dp at 1( 0) + 0 on 1239;
+  architecture arch of mem_ram_dp at 23( 558) + 0 on 1240;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/regs/registers_pass.vhd" "c55a35c546b0c88c056d75409cac7867ba7837d3" "20250524203218.720":
+  entity registers_pass at 1( 0) + 0 on 1235;
+  architecture arch of registers_pass at 24( 554) + 0 on 1236;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/riscv.vhd" "db26f6bab865858dfeba7f1fa53fc4cb6798228c" "20250524203218.610":
+  entity riscv at 1( 0) + 0 on 1223;
+  architecture arch of riscv at 44( 1612) + 0 on 1224;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/load/mem_load.vhd" "7efe7786afe049395771adc4a884187df26e76a1" "20250524203218.535":
+  entity mem_load at 1( 0) + 0 on 1215;
+  architecture arch of mem_load at 18( 407) + 0 on 1216;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/store/mem_store_tb.vhd" "1a7f66e3098256e19fb8b7b6acc4322ffec6cc1a" "20250524203218.499":
+  entity mem_store_tb at 5( 134) + 0 on 1211;
+  architecture bench of mem_store_tb at 12( 233) + 0 on 1212;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/decode/decoder.vhd" "e0192165bbe268163755378c5d46187d901a9ef2" "20250524203218.462":
+  entity decoder at 1( 0) + 0 on 1207;
+  architecture arch of decoder at 41( 1691) + 0 on 1208;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/decode/decoder_5stg.vhd" "7cfab3a018e7f9c9e9746679d463696d741137ba" "20250524203218.416":
+  entity decoder_5stg at 1( 0) + 0 on 1203;
+  architecture arch of decoder_5stg at 46( 1306) + 0 on 1204;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/addr_stack/addr_stack.vhd" "24c6377713f862b5ec18ecd4e1cd9ab3eb3e4f34" "20250524203218.379":
+  entity addr_stack at 1( 0) + 0 on 1199;
+  architecture arch of addr_stack at 20( 371) + 0 on 1200;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/imm/immediate_tb.vhd" "573b38784631a08bc7affd97eb4b2e868751c383" "20250524203218.343":
+  entity immediate_tb at 5( 134) + 0 on 1195;
+  architecture bench of immediate_tb at 12( 233) + 0 on 1196;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/alu/div/alu_div_tb.vhd" "f7de33194dc31ebf2b6c473e3d6530a9dc44806f" "20250524203218.306":
+  entity alu_div_tb at 5( 134) + 0 on 1191;
+  architecture bench of alu_div_tb at 12( 231) + 0 on 1192;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/alu/alu.vhd" "d25c1c13b3bb0bf3c238cfedbd0e2257cf6d01e0" "20250524203218.268":
+  entity alu at 1( 0) + 0 on 1187;
+  architecture arch of alu at 24( 1203) + 0 on 1188;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/alu/mult/alu_mult.vhd" "e4aee32f2050ff58523199a5cfb9e7949822ab4c" "20250524203218.232":
+  entity alu_mult at 1( 0) + 0 on 1183;
+  architecture arch of alu_mult at 21( 490) + 0 on 1184;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/fetch/fetch_tb.vhd" "969fd54ae1eb2c139aa072f81e77f45fc1e7e0d3" "20250524203218.194":
+  entity fetch_tb at 5( 134) + 0 on 1179;
+  architecture bench of fetch_tb at 12( 229) + 0 on 1180;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/csr/cnt_instr.vhd" "a74b7f74ed0cca1248fc126983dc5939238297d9" "20250524203218.158":
+  entity cnt_instr at 1( 0) + 0 on 1175;
+  architecture arch of cnt_instr at 18( 301) + 0 on 1176;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/csr/cnt_cycles.vhd" "1e651d25830b325f055c6876be2f6049274d67aa" "20250524203218.121":
+  entity cnt_cycles at 1( 0) + 0 on 1171;
+  architecture arch of cnt_cycles at 17( 273) + 0 on 1172;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "IPs/uart_nano20k/uart_send.vhd" "da913861147cb5000dc74324b378c5932ff1d49a" "20250524203218.104":
+  entity uart_send at 18( 950) + 0 on 1169;
+  architecture arch of uart_send at 34( 1374) + 0 on 1170;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "IPs/clock/fake/clk_wiz_0.vhd" "e132c3f81be2dab29830a8664cd89873919a425d" "20250524203218.072":
+  entity clk_wiz_0 at 5( 134) + 0 on 1165;
+  architecture arch of clk_wiz_0 at 16( 303) + 0 on 1166;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "IPs/timer/prog_cnt.vhd" "b93ad9214a2a1ff68ebc8dcb0ad66f957548b197" "20250524203218.000":
+  entity prog_cnt at 1( 0) + 0 on 1157;
+  architecture arch of prog_cnt at 16( 309) + 0 on 1158;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "IPs/timer/timer_ctrl.vhd" "b7958ab9d92aa7c9e86952fafbf0c0f6f053159c" "20250524203217.964":
+  entity timer_ctrl at 1( 0) + 0 on 1153;
+  architecture arch of timer_ctrl at 17( 463) + 0 on 1154;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/rom/mem_rom.vhd" "444bd2eff5f59ea77aaf91eec546c52179aff545" "20250524203218.571":
+  entity mem_rom at 1( 0) + 0 on 1219;
+  architecture arch of mem_rom at 20( 461) + 0 on 1220;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./soc/riscv_soc.vhd" "54c9731eccdc2c4d7821f42e5cbce93f9dedb07b" "20250524201758.923":
+  entity riscv_soc at 1( 0) + 0 on 207;
+  architecture arch of riscv_soc at 38( 845) + 0 on 208;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "tools/endian_h.vhdl" "dea77a933077fa106ee257477dc51ee09ebc04c8" "20250524203217.215":
+  package endian_h at 22( 967) + 0 on 1107 body;
+  package body endian_h at 49( 2662) + 0 on 1108;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "tools/stdlib_h.vhdl" "78b519951d2c9b37d7c50c13b8bbe43e0d7bb261" "20250524203217.184":
+  package stdlib_h at 22( 976) + 0 on 1099 body;
+  package body stdlib_h at 50( 1873) + 0 on 1100;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "tools/regexp_h.vhdl" "a845c3e2c755a9c20ecf611f71ecf7579704309e" "20250524203217.171":
+  package regexp_h at 22( 967) + 0 on 1095 body;
+  package body regexp_h at 70( 2594) + 0 on 1096;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "tools/strings_h.vhdl" "1f3cdaf1359d2bc889b9c4629282136740dc7d26" "20250524203217.204":
+  package strings_h at 22( 977) + 0 on 1103 body;
+  package body strings_h at 69( 2917) + 0 on 1104;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "tools/ctype_h.vhdl" "f2f3841e97cd673bf91d452e6f3654fdb044bce3" "20250524203217.177":
+  package ctype_h at 23( 969) + 0 on 1097 body;
+  package body ctype_h at 69( 3447) + 0 on 1098;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "tools/stdio_h.vhdl" "389810e04b09a0190f9f28ae5042f7cb1be38448" "20250524203217.196":
+  package stdio_h at 23( 1061) + 0 on 1101 body;
+  package body stdio_h at 261( 11237) + 0 on 1102;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "tools/debugio_h.vhdl" "fc7059a45f817184de21821c6df6c7c4fd3134c0" "20250524203217.209":
+  package debugio_h at 22( 971) + 0 on 1105 body;
+  package body debugio_h at 39( 1525) + 0 on 1106;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/ram/mem_ram.vhd" "8d69bb796836bfca15f1009ec11af5d636f7144c" "20250524203218.794":
+  entity mem_ram at 1( 0) + 0 on 1243;
+  architecture arch of mem_ram at 21( 528) + 0 on 1244;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "IPs/switch/switch_ctrl.vhd" "8b28590799694b82daad80accb93b0e329f81fe4" "20250524203217.912":
+  entity switch_ctrl at 1( 0) + 0 on 1147;
+  architecture arch of switch_ctrl at 21( 768) + 0 on 1148;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "IPs/timer/cycle_cnt.vhd" "a8ee85f277c011d7942433db44064c86f5138f47" "20250524203217.983":
+  entity cycle_cnt at 1( 0) + 0 on 1155;
+  architecture arch of cycle_cnt at 14( 230) + 0 on 1156;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "IPs/sound/pmod_i2s2.vhd" "3128b1cfd1b056e861c47f1182e82da46932f6ed" "20250524203218.053":
+  entity pmod_i2s2 at 13( 705) + 0 on 1163;
+  architecture behavioral of pmod_i2s2 at 35( 2055) + 0 on 1164;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "IPs/uart_nano20k/uart_recv.vhd" "7b06fb37573d39011b3d3e37bb8ae3e7e8fb98c5" "20250524203218.088":
+  entity uart_recv at 18( 953) + 0 on 1167;
+  architecture arch of uart_recv at 32( 1363) + 0 on 1168;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/csr/csr_registers.vhd" "ea36ece5d6bf044e66b8b194a6215ad18b1c5d33" "20250524203218.140":
+  entity csr_registers at 1( 0) + 0 on 1173;
+  architecture arch of csr_registers at 19( 354) + 0 on 1174;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/fetch/next_pc.vhd" "85a409d731f464c6f73954ef28c81e14f064da94" "20250524203218.176":
+  entity next_pc at 1( 0) + 0 on 1177;
+  architecture arch of next_pc at 17( 456) + 0 on 1178;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/fetch/fetch.vhd" "63b2bdabc1b9bc111151cce06cc9dedd1b172874" "20250524203218.212":
+  entity fetch at 1( 0) + 0 on 1181;
+  architecture arch of fetch at 18( 432) + 0 on 1182;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/alu/mult/alu_mult_tb.vhd" "fd484087531fa195804c5bcde24e0cadff7c6855" "20250524203218.250":
+  entity alu_mult_tb at 5( 134) + 0 on 1185;
+  architecture bench of alu_mult_tb at 12( 232) + 0 on 1186;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/alu/alu_tb.vhd" "c7aea8b1c28a3916d65eeece2c6e430c4fd76275" "20250524203218.288":
+  entity alu_tb at 5( 134) + 0 on 1189;
+  architecture bench of alu_tb at 12( 227) + 0 on 1190;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/alu/div/alu_div.vhd" "c40d1216d8d140ebc97c0ed758b9760cfd3af58e" "20250524203218.325":
+  entity alu_div at 1( 0) + 0 on 1193;
+  architecture arch of alu_div at 20( 806) + 0 on 1194;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/imm/immediate.vhd" "5872023c0a5743763674b4edc700baaaf84040c2" "20250524203218.361":
+  entity immediate at 1( 0) + 0 on 1197;
+  architecture arch of immediate at 19( 392) + 0 on 1198;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/decode/decoder_tb.vhd" "a0a3833bfbab143a59cb3802e43ef11f91a2b63f" "20250524203218.445":
+  entity decoder_tb at 5( 134) + 0 on 1205;
+  architecture bench of decoder_tb at 12( 231) + 0 on 1206;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/store/mem_store.vhd" "55676f846f4e7591ceaab14a1d9419d1f1802b2f" "20250524203218.481":
+  entity mem_store at 1( 0) + 0 on 1209;
+  architecture arch of mem_store at 16( 464) + 0 on 1210;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/forward/reg_forward.vhd" "f4232d391990ff2d528af923de2c09d5741a4c1e" "20250524203218.517":
+  entity reg_forward at 1( 0) + 0 on 1213;
+  architecture arch of reg_forward at 22( 727) + 0 on 1214;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/load/mem_load_tb.vhd" "d8ed1e5e7fd66d0b147b1fe0e3dc64da642fc959" "20250524203218.553":
+  entity mem_load_tb at 5( 134) + 0 on 1217;
+  architecture bench of mem_load_tb at 12( 232) + 0 on 1218;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/rom/mem_rom_tb.vhd" "f5e054c5314cb2a82c2271f8cf75e2a836811c1b" "20250524203218.590":
+  entity mem_rom_tb at 3( 26) + 0 on 1221;
+  architecture bench of mem_rom_tb at 15( 384) + 0 on 1222;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/riscv_tb.vhd" "6a79b63f2eee32ebea01c93cd3925c02f3c981b0" "20250524203218.629":
+  entity riscv_tb at 1( 0) + 0 on 1225;
+  architecture behavior of riscv_tb at 12( 253) + 0 on 1226;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/regs/registers.vhd" "489158cfd120c4d2cfb8d5a211309cc0f231c690" "20250524203218.665":
+  entity registers at 1( 0) + 0 on 1229;
+  architecture arch of registers at 23( 496) + 0 on 1230;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/regs/registers_tb.vhd" "9a9b3fa502afce70862b3f929bf147c00d7aa710" "20250524203218.701":
+  entity registers_tb at 1( 0) + 0 on 1233;
+  architecture bench of registers_tb at 8( 99) + 0 on 1234;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/ram/mem_ram_tb.vhd" "c430ba37b6cde52f45fc0878b1fbfa5ea7ad268d" "20250524203218.740":
+  entity mem_ram_tb at 1( 0) + 0 on 1237;
+  architecture bench of mem_ram_tb at 13( 324) + 0 on 1238;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/csr/csr_registers_pkg.vhd" "f4edcd7f9306b103550182455a2251e35fbc8175" "20250524203217.537":
+  package csr_registers_pkg at 1( 0) + 0 on 1126;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/alu/mult/alu_mult_pkg.vhd" "e9ed9502e5a52d927e961dcbaa1e066e900e3d6a" "20250524203217.572":
+  package alu_mult_pkg at 1( 0) + 0 on 1128;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/alu/div/alu_div_pkg.vhd" "ee410097e8de276a62e20a589c2982679b826ba4" "20250524203217.607":
+  package alu_div_pkg at 1( 0) + 0 on 1130;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/addr_stack/addr_stack_pkg.vhd" "395a99345339336404a1293a2889a3bd4e261874" "20250524203217.642":
+  package addr_stack_pkg at 1( 0) + 0 on 1132;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/decode/decoder_pkg.vhd" "62a5d274820ed8f445d638c563b5301a0c583df5" "20250524203217.678":
+  package decoder_pkg at 1( 0) + 0 on 1134;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/forward/reg_forward_pkg.vhd" "de815431d4f2b8c69ca281cf4999b92f7805e8d0" "20250524203217.713":
+  package reg_forward_pkg at 1( 0) + 0 on 1136;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/rom/mem_rom_pkg.vhd" "988ecc45e5a1a95d6fe83ad43531a11eeb622873" "20250524203217.750":
+  package mem_rom_pkg at 1( 0) + 0 on 1138;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/regs/registers_pkg.vhd" "a7fd19e17b15c04cdb1187276aace25eae1309b3" "20250524203217.784":
+  package registers_pkg at 1( 0) + 0 on 1140;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "./riscv/ram/mem_ram_pkg.vhd" "1114c27f1f962d7c0935f0f861689abcdb7d46d9" "20250524203217.820":
+  package mem_ram_pkg at 1( 0) + 0 on 1142;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "IPs/uart_nano20k.bad/uart_send.vhd" "6737966a3d07b72677b14b0367e17cd642c96081" "20250524203218.035":
+  architecture behavioral of uart_send at 33( 1219) + 0 on 1162;
+file "/home/santourh/RISCV-design-student/RISCV-design/src/" "riscv/ram/riscv_config.vhd" "5275f2ad70992b198e0b8beac8e45960eb7ab098" "20250524203218.776":
+  package riscv_config at 1( 0) + 0 on 1241;
+  package body riscv_config at 26( 657) + 0 on 1242;
